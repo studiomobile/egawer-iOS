@@ -523,8 +523,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Osamu Noguchi (BQY439J4V9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Osamu Noguchi (BQY439J4V9)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -539,8 +539,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PROVISIONING_PROFILE = "5FB26EB7-5CA2-436E-A191-21540F9BBF4D";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7B821FC8-E174-4FF7-B34F-329CA19CB28B";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = armv7;
 			};
@@ -571,8 +570,8 @@
 		069DD129142EC8E40032439C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Osamu Noguchi (BQY439J4V9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Osamu Noguchi (BQY439J4V9)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "egawer/egawer-Prefix.pch";
 				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/opencv_device/include\"";
@@ -590,8 +589,8 @@
 					"-lz",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5FB26EB7-5CA2-436E-A191-21540F9BBF4D";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7B821FC8-E174-4FF7-B34F-329CA19CB28B";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = armv7;

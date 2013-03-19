@@ -17,7 +17,7 @@
 		<string>icon72.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>io.atrac613.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>ru.studiomobile.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
